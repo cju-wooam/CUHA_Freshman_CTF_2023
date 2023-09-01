@@ -35,7 +35,7 @@ const student_number_exp = /^[0-9]{8,10}$/;
         //     return res.send("<script>alert('비밀번호가 일치하지 않습니다.');location.href='/register';</script>");
         // };
 
-        // 현재 코드는 완성본 아님. 추후 서버에 있는 완성본 코드 업로드 예정.
+        // 이 코드는 완성본 아님. 추후 서버에 있는 완성본 코드 업로드 예정.
 
         try{
             const exUser1 = await User.findOne({ where: {email: email}});
